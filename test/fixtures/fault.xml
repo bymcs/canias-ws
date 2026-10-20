@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+    <soapenv:Fault>
+      <faultcode>soapenv:Server.userException</faultcode>
+      <faultstring>Session not found</faultstring>
+      <detail>
+        <ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">app-01</ns1:hostname>
+      </detail>
+    </soapenv:Fault>
+  </soapenv:Body>
+</soapenv:Envelope>

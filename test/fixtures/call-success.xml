@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <ns1:callServiceResponse xmlns:ns1="http://webservice.ias.com" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <callServiceReturn href="#id0"/>
+    </ns1:callServiceResponse>
+    <multiRef id="id0" soapenc:root="0" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:CaniasResponse" xmlns:ns2="http://webservice.ias.com">
+      <Response href="#id1"/>
+      <ExtraVariables href="#id2"/>
+      <Messages href="#id3"/>
+      <SYSStatus xsi:type="xsd:int">0</SYSStatus>
+      <SYSStatusError xsi:type="xsd:string" xsi:nil="true"/>
+      <RequestId xsi:type="xsd:int">7</RequestId>
+    </multiRef>
+    <multiRef id="id1" soapenc:root="0" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:StringResponse" xmlns:ns2="http://webservice.ias.com">
+      <Value xsi:type="xsd:string">&lt;RESULT&gt;OK&lt;/RESULT&gt;</Value>
+      <Comressed xsi:type="xsd:boolean">false</Comressed>
+    </multiRef>
+    <multiRef id="id2" soapenc:root="0" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:StringResponse" xmlns:ns2="http://webservice.ias.com">
+      <Value xsi:type="xsd:string">client=00</Value>
+      <Comressed xsi:type="xsd:boolean">false</Comressed>
+    </multiRef>
+    <multiRef id="id3" soapenc:root="0" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:StringResponse" xmlns:ns2="http://webservice.ias.com">
+      <Value xsi:type="xsd:string">Islem tamamlandi</Value>
+      <Comressed xsi:type="xsd:boolean">false</Comressed>
+    </multiRef>
+  </soapenv:Body>
+</soapenv:Envelope>

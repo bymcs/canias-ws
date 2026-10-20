@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <ns1:loginResponse xmlns:ns1="http://webservice.ias.com" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <loginReturn href="#id0"/>
+    </ns1:loginResponse>
+    <multiRef id="id0" soapenc:root="0" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="ns2:LoginResponse" xmlns:ns2="http://webservice.ias.com">
+      <SessionId xsi:type="xsd:string">SESSION-123</SessionId>
+      <ErrorMessage xsi:type="xsd:string" xsi:nil="true"/>
+      <ContactNum xsi:type="xsd:string">42</ContactNum>
+      <EncryptionKey xsi:type="xsd:string" xsi:nil="true"/>
+      <Success xsi:type="xsd:boolean">true</Success>
+      <SecurityKey xsi:type="xsd:string">SECURITY-456</SecurityKey>
+    </multiRef>
+  </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <ns1:loginResponse xmlns:ns1="http://webservice.ias.com" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <loginReturn>
+        <SessionId xsi:type="xsd:string" xsi:nil="true"/>
+        <ErrorMessage xsi:type="xsd:string">login error: 2</ErrorMessage>
+        <ContactNum xsi:type="xsd:string" xsi:nil="true"/>
+        <EncryptionKey xsi:type="xsd:string" xsi:nil="true"/>
+        <Success xsi:type="xsd:boolean">false</Success>
+        <SecurityKey xsi:type="xsd:string" xsi:nil="true"/>
+      </loginReturn>
+    </ns1:loginResponse>
+  </soapenv:Body>
+</soapenv:Envelope>

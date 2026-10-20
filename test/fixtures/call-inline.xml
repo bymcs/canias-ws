@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <ns1:callServiceResponse xmlns:ns1="http://webservice.ias.com" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <callServiceReturn>
+        <Response>
+          <Value xsi:type="xsd:string">OK</Value>
+          <Comressed xsi:type="xsd:boolean">false</Comressed>
+        </Response>
+        <ExtraVariables>
+          <Value xsi:type="xsd:string"/>
+          <Comressed xsi:type="xsd:boolean">false</Comressed>
+        </ExtraVariables>
+        <Messages>
+          <Value xsi:type="xsd:string">none</Value>
+          <Comressed xsi:type="xsd:boolean">false</Comressed>
+        </Messages>
+        <SYSStatus xsi:type="xsd:int">0</SYSStatus>
+        <SYSStatusError xsi:type="xsd:string" xsi:nil="true"/>
+        <RequestId xsi:type="xsd:int">3</RequestId>
+      </callServiceReturn>
+    </ns1:callServiceResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
